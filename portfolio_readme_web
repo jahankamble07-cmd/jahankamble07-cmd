@@ -1,0 +1,38 @@
+In this HTML and CSS code, I have tried to make a website using the same which tells about:
+1. how people can connect me.
+2. why people should connect me.
+3. about me and my skills.
+It is just how much I know and till date how much have I done.
+
+# Project Structure:-
+The `<html>` tag contains the complete structure of the website.
+
+-<head> section includes:
+<title> tag – Displays "Jahan | Portfolio" on the browser tab.
+  <link> tag – Connects the external CSS file (`style.css`) for styling.
+<body> contains all visible content of the webpage.
+
+Displays the name using `<h1>`
+Shows a tagline using `<p>`
+Styled with a gradient background
+Text is centered using Flexbox
+
+Navigation Bar Contains:
+  - About
+  - Skills
+  - Projects
+  - Contact
+Uses smooth scrolling
+Includes hover effects for better user interaction
+
+# CSS Styling Features
+
+The CSS file is responsible for:
+
+- Setting background color and font style
+- Applying spacing and layout alignment
+- Creating a gradient header background
+- Using Flexbox for layout design
+- Adding hover effects for navigation links and cards
+- Creating modern glass-like design effects using `backdrop-filter`
+- Enabling smooth scrolling using `scroll-behavior`
