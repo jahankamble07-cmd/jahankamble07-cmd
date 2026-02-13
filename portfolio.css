@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f2027;
+    color: white;
+}
+
+
+header {
+    height: 80vh;
+    background: linear-gradient(to right, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+.hero p {
+    margin: 20px 0;
+    font-size: 2px;
+}
+
+nav {
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00adb5;
+}
+
+
+section {
+    padding: 80px 10%;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+.skill-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    padding: 15px 25px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    transition: 0.3s;
+}
+
+.skill:hover {
+    background: #00adb5;
+}
+
+.projects-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    width: 280px;
+    padding: 25px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: rgba(255,255,255,0.15);
+}
+
+#contact {
+    text-align: center;
+}
